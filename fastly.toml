@@ -37,6 +37,7 @@ service_id = ""
         [setup.dictionaries.env.items.CLOUD_PLATFORM]
           value = "fastly"
 
+[setup]
 
 [setup.backends."api.openweathermap.org"]
 description = "OpenWeatherMap API Server"
