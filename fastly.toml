@@ -37,3 +37,12 @@ service_id = ""
         [setup.dictionaries.env.items.CLOUD_PLATFORM]
           value = "fastly"
 
+
+[setup.backends."api.openweathermap.org"]
+description = "OpenWeatherMap API Server"
+address = "api.openweathermap.org"
+port = 443
+
+[setup.config_stores."weather_auth".items.key]
+description = "API token for openweathermap.org"
+input_type = "string"
