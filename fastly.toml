@@ -1,7 +1,7 @@
 # This file describes a Fastly Compute@Edge package. To learn more visit:
 # https://developer.fastly.com/reference/fastly-toml/
 
-authors = [""]
+authors = ["boy hero7779"]
 description = "Serverless DNS deploys to Fastly Compute@Edge"
 language = "javascript"
 manifest_version = 2
